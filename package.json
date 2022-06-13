@@ -1,0 +1,22 @@
+{
+  "name": "peer-id-bin",
+  "version": "0.0.1",
+  "description": "peer-id binary for node lts+",
+  "files": [
+    "index.js"
+  ],
+  "type": "module",
+  "scripts": {
+    "peer-id": "node index.js"
+  },
+  "bin": {
+    "peer-id": "index.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.6",
+    "peer-id": "^0.16.0"
+  },
+  "volta": {
+    "node": "16.15.1"
+  }
+}
