@@ -28,6 +28,6 @@ const peerId = await PeerId.create({ type });
 conclude(peerId);
 
 function conclude(peerId) {
-  console.log(peerId.toJSON());
+  console.log(JSON.stringify(peerId.toJSON()));
   process.exit(0);
 }

@@ -1,6 +1,6 @@
 {
   "name": "peer-id-bin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "peer-id binary for node lts+",
   "files": [
     "index.js"
